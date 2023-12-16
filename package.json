@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "Service for mocking API",
   "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    "./models/*": "./src/models/*.js",
+    "./inbound/*": "./src/inbound/*.js",
+    "./utils/*": "./src/utils/*.js"
+  },
   "scripts": {
+    "start": "node src/index.js",
+    "start:watch": "node --watch src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

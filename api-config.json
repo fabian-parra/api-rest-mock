@@ -1,0 +1,42 @@
+[
+  {
+    "url": "^/v1/users/\\d+",
+    "method": "GET",
+    "latency": 5000,
+    "status": 200,
+    "request": {
+      "queryString": "active=true",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    "response": {
+      "data": {
+        "data": "OK"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  },
+  {
+    "url": "^/v2/users/\\d+",
+    "method": "GET",
+    "latency": 5000,
+    "status": 200,
+    "request": {
+      "queryString": "active=true",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    "response": {
+      "data": {
+        "data": "OK"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]
