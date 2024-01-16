@@ -3,6 +3,13 @@ Service for mocking API's made in nodejs with minimun dependencies.
 
 # WIP
 
+- [-] Accept non escape regex in url
+- [] Improve console out information
+- [] Watch config file change for auto update
+- [] Accept body JSON object in request
+- [] Add SSL interface
+
+# Done
 - [x] Server accetp a config file
 - [x] Using query string in request match
 - [x] Using headers in request match
@@ -13,8 +20,4 @@ Service for mocking API's made in nodejs with minimun dependencies.
 - [x] Add -c --config option to CLI for using config file
 - [x] Add -p --port option to CLI for custom port
 - [x] Accept a JSON file path for response
-- [] Accept non escape regex in url
-- [] Accept body JSON object in request
-- [] Improve console out information
-- [] Watch config file change for auto update
-- [] Add SSL interface
+- [x] Show help menu

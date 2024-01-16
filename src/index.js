@@ -1,9 +1,15 @@
 import Endpoint from 'api-rest-mock/models/Endpoint'
 import {getInputs} from 'api-rest-mock/inbound/console'
+import {showHelp} from 'api-rest-mock/outbound/console'
 import http from 'http'
 import {readFileSync} from 'node:fs'
 
 const inputs = getInputs()
+
+if(inputs.help) {
+  showHelp()
+  process.exit(1)
+}
 
 const file = inputs.config
 const content = readFileSync(file, {encoding: 'utf8'})

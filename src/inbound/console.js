@@ -4,7 +4,7 @@ const OPTIONS = [
   {name: 'help', flag: 'h', assignable: false},
   {name: 'config', flag: 'c', default: 'api-config.json', assignable: true},
   {name: 'port', flag: 'p', default: 8883, assignable: true},
-  {name: 'host', flag: 'h', default: '0.0.0.0', assignable: true}
+  {name: 'host', flag: 'l', default: '0.0.0.0', assignable: true}
 ]
 
 const IS_FLAG = /^-[a-zA-Z]+$/
