@@ -1,0 +1,13 @@
+{
+  "features": {
+    "appEnabled": true,
+    "changeDestination": true,
+    "parameterBFFType": false,
+    "showWeekViewPrices": false,
+    "showHomeCookieCreator": false,
+    "useStaticFareAttributes": true,
+    "showFFPMobile": false,
+    "fetchPricingOnSubmit": false,
+    "showWeekViewPricesRoundTrip": true
+  }
+}

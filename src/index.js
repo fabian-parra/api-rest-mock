@@ -30,6 +30,7 @@ const serverListener = (req, res) => {
         res.end(data)
       })
     } else {
+      console.log(`[Response] 404`)
       res.writeHead(404).end('Not Found')
     }
   })

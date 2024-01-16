@@ -11,9 +11,7 @@
       }
     },
     "response": {
-      "data": {
-        "data": "OK"
-      },
+      "file": "test/stubs/test-feature.json",
       "headers": {
         "Content-Type": "application/json"
       }

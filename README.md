@@ -12,7 +12,7 @@ Service for mocking API's made in nodejs with minimun dependencies.
 - [x] Accept a JSON file path for body in request
 - [x] Add -c --config option to CLI for using config file
 - [x] Add -p --port option to CLI for custom port
-- [] Accept a JSON file path for response
+- [x] Accept a JSON file path for response
 - [] Accept non escape regex in url
 - [] Accept body JSON object in request
 - [] Improve console out information
